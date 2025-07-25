@@ -1,8 +1,8 @@
 {
-  description = "Computer Vision - Mini Project";
+  description = "Robotics Labs 2 - RAI";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.11";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
     utils.url = "github:numtide/flake-utils";
     flake-compat.url = "https://flakehub.com/f/edolstra/flake-compat/1.tar.gz";
   };
@@ -33,4 +33,5 @@
       '';
     };
   });
+
 }
