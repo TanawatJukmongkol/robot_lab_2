@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "mini_project"
+version = "1.0.0"
+description = "Computer Vision"
+authors = [
+    "Tanawat Jukmongkol <66011255@kmitl.ac.th>",
+]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pip = "^24.3.1"
+ipython = "^8.12.3"
+ipykernel = "^6.25.2"
+jupyter = "^1.1.1"
+notebook = "^7.3.2"
+
+djitellopy = "^2.5.0"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.1.1"
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[virtualenvs]
+in-project = true
